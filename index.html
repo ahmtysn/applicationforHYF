@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Website Title</title>
+    <meta charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Source Code Pro' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Shadows Into Light' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header> 
+      <h1 style="color: white; text-align= left; letter-spacing:.9em; font-family:Shadows Into Light; text-transform: uppercase;">Unmanned Air Vehicles</h1>
+      
+      <div id="navbar">
+        <a href="#home-content">HOME</a>
+        <a href="#footer" style="border:none">Footer</a>
+      </div>
+    </header>
+    <div id="main-content">
+      <div id="sidebar">
+        <ul class="sidebar-list">
+          <li><a href="#what-content">What is Drone?</a></li>          
+          <li><a href="#types-content">Drone Types</a></li>
+          <li><a href="#where-content">Where Can Be Used?</a></li>
+        </ul>
+        <img src="images/done-side.png" id="side-img" alt="drone logo">
+      </div>      
+      <div id="content">
+        <div id="home-content">
+         <img src="images/home-img.jpg" id="home-img" alt="Home Drone Image"> 
+          <div id="discover-home">
+            <div id="discover-text">
+              <h1>Let's Discover the Drone World!</h1>
+            </div>
+            <a href="#what-content">
+              <div id="discover-button">
+                <img src="images/arrow.png" width="100%", height: "100%" alt="button"></a>
+              </div>
+          </div>
+        </div>
+        <div id="what-content">
+          <div class="what-inside" style="margin-right: 10px;">
+            <img class="bg-inside-img" src="images/clouds.jpeg" alt="background clouds">
+            <img class="drone-img" src="images/micro-drone.jpg" alt="micro drone">
+            <p>&nbsp;&nbsp;A drone, in technological terms, is an unmanned aircraft. Drones are more formally known as unmanned aerial vehicles <strong>(UAVs)</strong> or unmanned aircraft systems (UASes).</p>
+          </div>          
+          <div class="what-inside" style="margin-right: 10px;">
+            <img class="bg-inside-img" src="images/clouds.jpeg" alt="background clouds">
+            <img class="drone-img" src="images/global-hawk.jpg" alt="global hawk">
+            <p>&nbsp;&nbsp;UAVs are most often associated with the military, where they are used initially for anti-aircraft target practice, intelligence gathering and then, more controversially, as weapons platforms. </p>
+          </div>      
+          <div class="what-inside"> <!-- Attention! I dont use margin-right:10px here -->
+            <img class="bg-inside-img" src="images/clouds.jpeg" alt="background clouds">
+            <img class="drone-img" src="images/quadrator.jpg" alt="quadrator" >
+            <p>&nbsp;&nbsp;A drone is a flying robot that can be <em>remotely controlled</em> or fly autonomously through software-controlled flight plans in their embedded systems, working in conjunction with onboard sensors and GPS.</p>
+          </div>
+        </div>       
+        <div id="types-content">
+          <p style="font-family:Ubuntu; text-align:left; padding-left:30px;"> Pros and Cons Table</p>
+          <table>
+            <thead>
+              <tr>
+                <th>Configuration</th>
+                <th>Pros</th>
+                <th>Cons</th>
+                <th>Typical Uses</th>
+                <th>Price($AUD)</th>                
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Multi-Rotor</td>
+                <td><ul><li>Accessibility</li><li>Ease of use</li><li>VTOL and hover flight</li><li>Can operate in a confined area</li></ul></td>
+                <td><ul><li>Short flight times</li><li>Small payload capacity</li></ul></td>
+                <td>Aerial Photography and Video Aerial Inspection</td>
+                <td>$5k-$65k for pro drones</td>                
+              </tr>
+              <tr>
+                <td>Fixed-Wing</td>
+                <td><ul><li>Long endurance</li><li>Large area coverage</li><li>Fast flight speed</li></ul></td>
+                <td><ul><li>Launch and recovery needs a lot of space</li><li>no VTOL/hover</li><li>Harder to fly, more training needed</li><li>Expensive</li></ul></td>
+                <td>Aerial Mapping, Pipeline and Power line inspection</td>
+                <td>$25-$120k for pro drones</td>
+              </tr>
+              <tr>
+                <td>Single Rotor</td>
+                <td><ul><li>VTOL and hover flight</li><li>Long endurance (with gas power)</li><li>Heavier payload capability</li></ul></td>
+                <td><ul><li>More dangerous</li><li>Harder to fly, more training needed</li><li>Expensive</li></ul></td>
+                <td>Aerial LIDAR laser scanning</td>
+                <td>$25-$300k for pro drones</td>
+            </tr>
+              <tr>
+                <td>Fixed-Wing Hybrid VTOL</td>
+                <td><ul><li>VTOL and long-endurance flight</li></ul></td>
+                <td><ul><li>Not perfect at either hovering or forward flight</li><li>Still in development</li></ul></td>
+                <td>Drone Delivery</td>
+                <td>TBD, in development</td>
+               </tr>
+            </tbody>
+          </table>
+          <br>
+          <p style="font-family:Ubuntu; text-align:left; padding-left:30px;"> Please click here for more <a href="https://www.auav.com.au/articles/drone-types/"> information </a> about the TABLE</p>
+        </div> 
+        <br>
+        <br>
+        <br>
+        <div id="where-content">
+          <img class="left-image" src="images/military.jpg" alt="military drone">
+          <p class="right-p" style="text-transform: uppercase; font-weight: bold">&nbsp;&nbsp;&nbsp;Defense</p>
+          <p class="right-p">&nbsp;&nbsp;&nbsp;As the inception of drones started with its use in defense, it is the most important area even today where drones are used. But, the technology has evolved much more. Now smaller and portable drones are being used by ground forces on a regular basis. Drones in the military are used mostly for surveillance and offensive operations. Drone like Prox Dynamics is quite famous for military use around the world, including the US Marines, the British Army, the Australian Army, and Norway’s Armed Forces for exploration.</p>
+          <img class="right-image" src="images/urban.jpg" style="clear: both" alt="urban planning drone">
+          <p class="left-p" style="text-transform: uppercase; font-weight: bold">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Urban Planning</p>
+          <p class="left-p">&nbsp;&nbsp;&nbsp;As urbanization is growing up with the fast pace and with the emergence of smart cities concept all around the world, it is very important to map and survey the land which has to be developed. In this, drones have a great role to play. They can provide instant mapping and ready to use data for the purpose. Drones are also light on the budget side which can help city planners to decide which areas may benefit most from green space, without causing further congestion.</p>
+          <img class="left-image" src="images/health.jpg" style="clear: both;" alt="healthcare drone">
+          <p class="right-p" style="text-transform: uppercase; font-weight: bold">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Healtcare</p>
+          <p class="right-p">&nbsp;&nbsp;&nbsp;With increasing number of life-threatening diseases, modern medicine is the need of the time to increase the life expectancy and save lives.  However, the availability is easy in urban areas, the reach of the modern medical facility is still yet time taking in rural areas. Here drones can play an important role by delivering quick access to drugs, blood, and medical technology in remote areas. Companies like Zipline International have especially designed drones to deliver medical services in rural areas throughout in countries like Africa and other remote parts of the world.</p>
+          <img class="right-image" src="images/agriculture.jpg" style="clear:both" alt="agriculture drone">
+          <p class="left-p" style="text-transform: uppercase; font-weight: bold">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agriculture</p>
+          <p class="left-p">&nbsp;&nbsp;&nbsp;Good agriculture productivity is the backbone of many countries around the world. So, it is very important to monitor their health to expand yields.  Drones in agriculture can help farmers to gather data and automate redundant processes to maximize efficiency. They can also be used for spray medicines to kill insects impacting their health. In a process of planting crops which is tedious and equally energy-intensive, drones can ease the work by distributing seed on the land. In past drones have also been used to pollinate flowers, and in future, could prove helpful in compensating for the declining bee population.</p>
+        </div>
+      </div>
+    </div>
+</html>
